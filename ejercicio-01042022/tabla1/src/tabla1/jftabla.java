@@ -63,7 +63,7 @@ Cpersona persona=new Cpersona();
         ));
         jScrollPane1.setViewportView(tbldatos);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 340, 482, 125));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 340, 460, 125));
 
         jLabel1.setText("FORMULARIO DE DATOS");
 
@@ -224,7 +224,7 @@ Cpersona persona=new Cpersona();
                 .addComponent(btneliminar)
                 .addGap(18, 18, 18)
                 .addComponent(btnbuscar)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         getContentPane().add(pnpbotones, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 70, 190, 200));
